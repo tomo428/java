@@ -93,8 +93,7 @@ public class HelloWorld {
 		
 		if(c6 > 8) {
 			System.out.println("A");
-		}
-		else if(c6 < 10) {
+		}else if(c6 < 10) {
 			System.out.println("B");
 		}
 		
@@ -102,8 +101,7 @@ public class HelloWorld {
 		
 		if(c7 >5) {
 			System.out.println("A");
-		}
-		else {
+		}else {
 			System.out.println("Z");
 		}
 		
@@ -111,11 +109,9 @@ public class HelloWorld {
 		
 		if(c8 < 8) {
 			System.out.println("A");
-		}
-		else if(c8 == 8) {
+		}else if(c8 == 8) {
 			System.out.println("B");
-		}
-		else {
+		}else {
 			System.out.println("C");
 		}
 		
@@ -123,9 +119,60 @@ public class HelloWorld {
 		
 		if(c9 >= 20) {
 			System.out.println("成人");
-		}
-		else {
+		}else {
 			System.out.println("未成年");
+		}
+		
+		int c10 = 35;
+		
+		if(c10 < 20) {
+			System.out.println("未成年");
+		}else if(c10 < 80) {
+			System.out.println("高齢者");
+		}else {
+			System.out.println("成人");
+		}
+		
+		int c11 = 35;
+		
+		if(c11 < 20) {
+			System.out.println("未成年");
+		}else if(c11 >= 20 && c11 <= 80) {
+			System.out.println("成人");
+		}else {
+			System.out.println("高齢者");
+		}
+		
+		int c12 = 5;
+		
+		if(c12 / 2 == 0){
+			System.out.println("偶数");
+		}else{
+			System.out.println("奇数");
+		}
+//		8時間目
+		int d1 = 10;
+		
+		if(d1 > 0) {
+			if(d1 == 2){
+				System.out.println("A");
+			}else if(d1 == 3){
+				System.out.println("B");
+			}else{
+				System.out.println("C");
+			}
+		}
+		
+		int d2 = 2;
+		
+		if(d2 > 0) {
+			if(d2 == 2) {
+				System.out.println("A");
+			}else if(d2 == 3) {
+				System.out.println("B");
+			}else {
+				System.out.println("C");
+			}
 		}
 	}
 
