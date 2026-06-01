@@ -174,6 +174,68 @@ public class HelloWorld {
 				System.out.println("C");
 			}
 		}
+		
+		int d3 = 88;
+		
+		if(d3 <= 100) {
+			if(d3 < 20) {
+				System.out.println("未成年");
+			}else if(d3 == 77) {
+				System.out.println("喜寿");
+			}else if(d3 == 88) {
+				System.out.println("米寿");
+			}else {
+				System.out.println("成人");
+			}
+		}
+		
+//		9時間目
+		int e1 = 1;
+		
+		switch(e1){
+		case 0:
+			System.out.println("e1は0に等しい");
+			break;
+		case 1:
+			System.out.println("e1は1に等しい");
+			break;
+		default:
+			System.out.println("e1は0でも1でもない");
+		}
+		
+		String e2 = "青";
+		
+		switch(e2) {
+		case "赤":
+			System.out.println("赤組です");
+			break;
+		case "白":
+			System.out.println("白組です");
+			break;
+		default:
+			System.out.println("エラーです");
+		}
+		
+//		10時間目
+		String[] f1 = new String[3];
+		
+		f1[0] = "田中";
+		f1[1] = "高橋";
+		f1[2] = "斎藤";
+		System.out.println(f1[0]);
+		
+		String[] f2 = {"田中", "高橋", "斎藤"};
+		System.out.println(f2[0]);
+		
+		char[] f3 = {'x', 'y', 'z'};
+		System.out.println(f3[0]);
+		
+		int[] f4 = {1, 5, 10};
+		System.out.println(f4[0]);
+		
+		String[] f5 = {"田中", "高橋", "斎藤"};
+		
+		f5[0] = "加藤";
+		System.out.println(f5[0]);
 	}
-
 }
