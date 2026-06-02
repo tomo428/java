@@ -4,6 +4,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		// Hello World!の出力
 		System.out.println("Hello World!");
+		
 		//3時間目
 		System.out.println("こんにちは！！");
 		System.out.println(123);
@@ -11,6 +12,7 @@ public class HelloWorld {
 		System.out.println(0);
 		System.out.println("例外が発生しました");
 		System.out.println("例外が\r\n発生しました");
+		
 //		4時間目
 		String name = "高橋";
 		System.out.println(name);
@@ -162,7 +164,6 @@ public class HelloWorld {
 				System.out.println("C");
 			}
 		}
-		
 		int d2 = 2;
 		
 		if(d2 > 0) {
@@ -174,7 +175,6 @@ public class HelloWorld {
 				System.out.println("C");
 			}
 		}
-		
 		int d3 = 88;
 		
 		if(d3 <= 100) {
@@ -236,6 +236,43 @@ public class HelloWorld {
 		String[] f5 = {"田中", "高橋", "斎藤"};
 		
 		f5[0] = "加藤";
+		
 		System.out.println(f5[0]);
+		
+//		11時間目
+		String[][] g1 = {
+				{"日本", "タイ"},
+				{"アメリカ", "ブラジル"},
+				{"フランス", "ロシア"}
+		};
+		System.out.println(g1[0][1]);
+		
+		String[][] g2 = new String[3][2];
+		
+		g2[0][0] = "日本";
+		g2[0][1] = "タイ";
+		g2[1][0] = "アメリカ";
+		g2[1][1] = "ブラジル";
+		g2[2][0] = "フランス";
+		g2[2][1] = "ロシア";
+		
+		System.out.println(g2[2][0]);
+		
+//		12時間目
+		for(int h1 = 0; h1 < 3; h1++) {
+			System.out.println(h1);
+		}
+		
+		for(int h2 = 10; h2 > 5; h2--) {
+			System.out.println(h2);
+		}
+		
+		for(int h3 = 1; h3 < 10; h3+=2) {
+			System.out.println(h3);
+		}
+		
+		for (int h4 = 1; h4 <= 5; h4++) {
+			System.out.println("★");
+		}
 	}
 }
