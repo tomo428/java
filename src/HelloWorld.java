@@ -274,5 +274,101 @@ public class HelloWorld {
 		for (int h4 = 1; h4 <= 5; h4++) {
 			System.out.println("★");
 		}
+		
+//		13時間目
+		for(int i1 = 1; i1 <= 10; i1++) {
+			if(i1 % 2 == 0) {
+				System.out.println(i1);
+			}
+		}
+		
+		for(int i2 = 0; i2 < 3; i2++) {
+			for(int i3 = 1; i3 < 4; i3++){
+				System.out.println(i3);
+			}
+		}
+		
+		int i4 = 10;
+		
+		String i5 = i4 > 0 ? "プラス" : "マイナス";
+		
+		System.out.println(i5);
+		
+		int i6 = 2;
+		
+		String i7 = i6 % 2 == 0 ? "偶数" : "奇数";
+		
+		System.out.println(i7);
+		
+		for(int i8 = 0; i8 < 5; i8++) {
+			String i9 = i8 % 2 == 0 ? "☆" : "★";
+			
+			System.out.println(i9);
+		}
+		
+//		14時間目
+		int j1 = 1;
+		
+		while(j1 <= 5) {
+			System.out.println(j1);
+			j1++;
+		}
+		
+		int j2 = 0;
+		
+		while(j2 < 10) {
+			System.out.println(j2);
+			j2++;
+		}
+		
+		int j3 = 1;
+		
+		while(j3 <= 10) {
+			System.out.println(j3);
+			j3+= 2;
+		}
+		
+		int j4 = 10;
+		
+		while(j4 >= 1) {
+			System.out.println(j4);
+			j4-= 3;
+		}
+		
+//		15時間目
+		int k1 = 1;
+		
+		do {
+			System.out.println(k1);
+			k1--;
+		} while(k1 > 1);
+		
+		int k2 = 0;
+		
+		do {
+			System.out.println(k2);
+			k2++;
+		} while(k2 < 10);
+		
+		int k3 = 5;
+		
+		do {
+			System.out.println(k3);
+			k3++;
+		}while(k3 <10);
+		
+		int k4 = 5;
+		
+		do {
+			System.out.println(k4);
+			k4--;
+		}while(k4 > 0);
+		
+		int k5 = 10;
+		
+		do {
+			System.out.println(k5);
+			k5-= 3;
+		}while(k5 >= 2);
 	}
 }
