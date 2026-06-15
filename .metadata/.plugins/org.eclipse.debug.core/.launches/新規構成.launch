@@ -6,6 +6,7 @@
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
 </listAttribute>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="jp.co.diworks.action"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="HumanName"/>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="java.HumanName"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="human"/>
 </launchConfiguration>

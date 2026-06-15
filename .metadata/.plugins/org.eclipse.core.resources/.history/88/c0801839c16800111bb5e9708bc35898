@@ -8,6 +8,7 @@ public class HumanName {
 		lastName="太郎";
 		String myName=firstName+lastName;
 		return myName;
+		System.out.println(myName());
 	}
 
 }
