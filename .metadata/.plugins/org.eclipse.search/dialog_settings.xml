@@ -20,4 +20,14 @@
 			<item value="org.eclipse.pde.internal.ui.search.SearchPage"/>
 		</list>
 	</section>
+	<section name="SearchDialog">
+		<item value="org.eclipse.rse.internal.files.ui.search.searchPage" key="PREVIOUS_PAGE"/>
+	</section>
+	<section name="DialogBounds_SearchDialog">
+		<item value="804" key="DIALOG_WIDTH"/>
+		<item value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI" key="DIALOG_FONT_NAME"/>
+		<item value="502" key="DIALOG_HEIGHT"/>
+		<item value="260" key="DIALOG_X_ORIGIN"/>
+		<item value="50" key="DIALOG_Y_ORIGIN"/>
+	</section>
 </section>
